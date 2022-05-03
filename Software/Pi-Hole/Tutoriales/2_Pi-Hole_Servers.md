@@ -135,7 +135,8 @@ When upgrading to a new version of Pi-hole you will have to repeat step 11 in or
 
 First we need to install keepalived and libipset3. Run this command on both machines.
 
-`sudo apt update && sudo apt install keepalived libipset3 -y`
+## sudo apt update && sudo apt install keepalived libipset3 -y
+sudo apt-get install keepalived
 
 **02)** After the install we need to enable keepalived. Run this command on both machines.
 
